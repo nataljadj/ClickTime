@@ -1,0 +1,91 @@
+.container-header{
+opacity: 0.4;
+}
+
+
+.logo-container{
+	position:absolute;
+	height:440px;
+	width:300px;
+	left:458px;
+	top:140px;
+	background: white;
+	box-shadow: 2px;
+}
+
+.name{
+	position: relative;
+	width:300px;
+	left:458px;
+}
+
+h3{
+	font-family:Trebuchet, 'Century Gothic', "Oxygen", sans-serif;
+	font-weight: lighter;
+	color:rgba(51, 44, 47, 0.8);
+	text-align: center;
+	font-size: 2em;
+}
+
+h4,p{
+	font-family:Trebuchet, 'Century Gothic', Helvetica, sans-serif;
+	font-weight:lighter;
+	text-align: center;
+	color:#332C2F;
+	font-size: 1.4em;
+}
+
+.logo-container #facebook, .logo-container #twitter{
+	height: 45px;
+	width: 120px;
+	border: 1.5px solid rgba(51, 44, 47, 0.6);
+	position: relative;
+	left: 30px;
+	font-family:Trebuchet, 'Century Gothic', Helvetica, sans-serif;
+	font-size: 0.95em;
+	color: white;
+}
+
+.logo-container #facebook:active{
+	background:#8b9dc3;
+	border: 1.5px solid rgba(51, 44, 47, 0.6);
+}
+.logo-container #twitter:active{
+	background: #55ACEE;
+	border: 1.5px solid rgba(51, 44, 47, 0.6);
+}
+
+.logo-container #facebook{
+	background: #3b5998;
+}
+
+.logo-container #twitter{
+	background: #00aced;
+}
+
+.logo-container #e-mail, .logo-container #pass{
+	border-radius: 2px;
+	height: 35px;
+	width: 240px;
+	position: relative;
+	left:30px;
+	font-family:Trebuchet, 'Century Gothic', Helvetica, sans-serif;
+	font-size: 0.95em;
+	background: #D4D8D1;
+	opacity: 0.6;
+}
+
+
+.logo-container #log-in{
+	height: 40px;
+	width: 120px;
+	border-radius: 2px;
+	position: relative;
+	left: 90px;
+	top: 50px;
+	font-family:Trebuchet, 'Century Gothic', Helvetica, sans-serif;
+	font-size: 1em;
+	color: #D4D8D1;
+	background: #577492;
+	border: 1.5px solid rgba(51, 44, 47, 0.6);
+}

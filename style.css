@@ -1,0 +1,110 @@
+body{
+	background:#D4D8D1;
+}
+.container-header{
+	background:#577492;
+	height:50px;
+}
+.navbar{
+	height:50px;
+	margin:0;
+	margin-left:150px;
+	background:#332C2F;
+}	
+.navbar li{
+	display:inline-block;
+	list-style:none;
+	color:#D4D8D1;
+}
+li, li a{
+	text-decoration:none;
+	color:#D4D8D1;
+	margin:0 5px;
+	padding:15px;
+	font-family:'Proxima Nova', sans-serif;
+	font-weight: lighter;
+	font-size:1.8ex;
+}
+.navbar li a:hover{
+	border-bottom:4px #577492 solid;
+	background:#332C2F;
+	color:white;
+}
+
+li .logo1{
+	background:white;
+}
+.section, .list{
+	position:absolute;
+	height:740px;
+	width:940px;
+	left:158px;
+	top:140px;
+}
+
+
+.section h1, .list h1{
+	font-family:Trebuchet ,'Century Gothic', Helvetica, sans-serif;
+	font-weight:lighter;
+}
+.section #text1{
+	height:20px;
+}
+.section h1 span, .list h1 span{
+	color:#B74934;
+}
+
+.list table, .section table{
+	border-collapse:collapse;
+	font-family:Trebuchet, 'Century Gothic', Helvetica, sans-serif;
+	color:#577492;
+
+}
+.list th, .list td, .section tr, .section td{
+	padding:20px;
+	border:1px solid #A8A8A1;
+}
+
+.section #butt{
+	border: 2px solid #B74934;
+	border-radius: 2px;
+	margin: 20px 0;
+	padding: 5px 20px;
+}
+
+.section #butt1, .section #butt2, .section #butt3, .section #butt4{
+	border: 2px solid #B74934;
+	border-radius: 2px;
+	margin: 20px 5px;
+	padding: 5px 10px;
+}
+.section #butt:hover, .section #butt3:hover, .section #butt2:hover, .section #butt4:hover {
+	border: 2px solid #B74934;
+	border-radius: 2px;
+	background: #D4D8D1;
+}
+.section #butt:active, .section #butt3:active, .section #butt2:active, .section #butt4:hover {
+	border: 2px solid #B74934;
+	border-radius: 2px;
+}
+
+.section h4{
+	font-family:Trebuchet, 'Century Gothic', Helvetica, sans-serif;
+	font-weight:lighter;
+	color:#332C2F;
+	border-left:4px solid #B74934;
+	padding:4px 9px;
+	background:#D4D8D1;
+
+}
+
+.section .progres-wrap{
+	width: 160px;
+	height: 25px;
+	border: 2px solid #B74934;
+	border-radius: 2px;
+}
+.section .progres-bar{
+	height: 25px;
+	background: #577492;
+}

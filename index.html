@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ClickTime</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="demo.js"></script>
+
+</head>
+<body>
+	<div class="container-header">
+		<ul class="navbar">
+			<li>
+				<a href="index.html">Logo</a>
+			</li>
+			<li>
+				<a href="timeClick.html">ClickTime</a>
+			</li>
+			<li>
+				<a href="#AddList">Add List</a>
+			</li>
+			<li>
+				<a href="#Help">Help</a>
+			</li>
+			<li>
+				<a href="account.html">Account</a>
+			</li>
+		</ul>
+	</div>
+	<div class="section">
+		<h1>Try your first <span> time-clicker</span></h1>
+			<h4>Add name of your task</h4>
+				<input type="text" id="text1">
+					<h4>Choose time</h4>
+				<input type="time" id="time1" value="00:00:00"><br/>
+			<input type="button" id="butt" value="Add" onclick="addRowsToTable()" >
+			
+
+		<h4 id="one"></h4>
+		<table id="table1" >
+		</table>
+	</div>
+	
+</body>
+</html>
